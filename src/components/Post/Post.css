@@ -1,0 +1,19 @@
+.post {
+  width: 400px;
+  margin: 15px;
+}
+.post--collapsed {
+}
+.post--expanded .post__username {
+  display: block;
+}
+.post--collapsed .post__body {
+  width: 100%;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.post__username {
+  display: none;
+}
